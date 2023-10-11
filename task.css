@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+main > h1 {
+  color: red;
+  font-size: 3rem;
+}
+main {
+  text-align: center;
+}
+.todoList {
+  background-image: url("./postit.png");
+  background-position: center;
+  background-size: auto;
+
+  background-repeat: no-repeat;
+}
+
+main > h2 {
+  font-size: 3rem;
+  font-family: "Patrick Hand", cursive;
+}
+.todoTask {
+  display: inline-block;
+  font-size: large;
+  font-family: "Patrick Hand", cursive;
+  font-size: 2rem;
+}
+
+.eraseButton {
+  border: none;
+  background-color: rgba(208, 52, 52, 0.641);
+  margin-left: 150px;
+  border-radius: 6px;
+  padding: 10px;
+}
